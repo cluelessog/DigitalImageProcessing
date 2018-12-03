@@ -5,10 +5,18 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
+```
 Python 3.6
+```
+```
 Numpy
+```
+```
 Scikit-learn
+```
+```
 Open-CV
+```
 
 ### Project Directory Structure
 
@@ -23,7 +31,7 @@ Open-CV
     │       ├──neg
     │       └──pos
     │
-    └──output
+    └──output              #consists of result images
 ### Usage
 Clone the repository using the following command
 ```
