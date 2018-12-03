@@ -13,13 +13,17 @@ Open-CV
 ### Project Directory Structure
 
     .
-    ├── ...
-    ├── test                    # Test files (alternatively `spec` or `tests`)
-    │   ├── benchmarks          # Load and stress tests
-    │   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-    │   └── unit                # Unit tests
-    └── ...
-
+    ├── dataset                    
+    │   ├── detect        #images for detection   
+    │   ├── hardneg       #images for hard negative training  
+    │   └── train         #positive training images
+    │       ├──neg
+    │       └──pos
+    └── testdataset       #images for testing the performance of the classifier
+    │       ├──neg
+    │       └──pos
+    │
+    └──output
 ### Usage
 Clone the repository using the following command
 ```
@@ -29,8 +33,10 @@ git clone https://github.com/sourabhkumar0308/DigitalImageProcessing.git
 cd DigitalImageProcessing
 ```
 To run the Project there are two ways
+```
 1.) either use '.py' files
 2.) or use 'ipynb' files (requires jupyter notebook)(recommended)
+```
 ```
 Run extract features.py or extract features.ipynb
 ```
